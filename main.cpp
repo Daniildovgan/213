@@ -1,10 +1,13 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Не питайте, хто йде шляхом, " << std::endl;
-    std::cout << "Ідіть самі, будьте дорогами," << std::endl;
-    std::cout << "Будьте сонцем і будьте вітром, " << std::endl;
-    std::cout << "Будьте воля в революціях." << std::endl;
-    std::cout << "- Тарас Шевченко" << std::endl;
+    double R1 = 2.0;
+    double R2 = 4.0;
+    double R3 = 8.0;
+
+    double R0 = 1.0 / (1.0 / R1 + 1.0 / R2 + 1.0 / R3);
+
+    std::cout << "Р—РЅР°С‡РµРЅРЅСЏ РѕРїРѕСЂСѓ R0: " << R0 << std::endl;
+
     return 0;
 }
