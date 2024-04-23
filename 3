@@ -1,0 +1,20 @@
+#include <iostream>
+
+int main() {
+    double v, t, a;
+
+    std::cout << "Введіть швидкість (v): ";
+    std::cin >> v;
+
+    std::cout << "Введіть час (t): ";
+    std::cin >> t;
+
+    std::cout << "Введіть прискорення (a): ";
+    std::cin >> a;
+
+    double S = v * t + (a * t * t) / 2;
+
+    std::cout << "Пройдена відстань: " << S << std::endl;
+
+    return 0;
+}
